@@ -67,20 +67,20 @@ public class CreditCardClient {
          */
         // Test mergeCards //
         /*
-        */
-        // CreditCard khan = new CreditCard("Kevin Han", 6, 2020, 500);
-        CreditCard khan = new CreditCard("Kevin Han", 6, 2020, 200);
-        CreditCard khan1 = new CreditCard("Jane Doe", 4, 2024, 500);
-        khan1.chargeCard(130, 125);
-
-        khan.setCvv(124);
-        khan1.setCvv(125);
-        khan.chargeCard(120, 124);
-        khan1.payCard(400);
-
-        System.out.println(CreditCard.mergeCards(khan, khan1));
-        System.out.println(khan);
-        System.out.println(khan1);
+         * CreditCard khan = new CreditCard("Kevin Han", 6, 2020, 500);
+         * CreditCard khan = new CreditCard("Kevin Han", 6, 2020, 200);
+         * CreditCard khan1 = new CreditCard("Jane Doe", 4, 2024, 500);
+         * khan1.chargeCard(130, 125);
+         * 
+         * khan.setCvv(124);
+         * khan1.setCvv(125);
+         * khan.chargeCard(120, 124);
+         * khan1.payCard(400);
+         * 
+         * System.out.println(CreditCard.mergeCards(khan, khan1));
+         * System.out.println(khan);
+         * System.out.println(khan1);
+         */
 
     }
 }
